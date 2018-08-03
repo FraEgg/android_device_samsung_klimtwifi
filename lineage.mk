@@ -11,6 +11,9 @@ $(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
 
 PRODUCT_NAME := lineage_klimtwifi
 PRODUCT_DEVICE := klimtwifi
+PRODUCT_BRAND := samsung
+PRODUCT_MANUFACTURER := samsung
+PRODUCT_MODEL := SM-T700
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_MODEL=SM-T700 \
